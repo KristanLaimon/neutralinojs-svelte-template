@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build:nohmr": "cd ./frontend && bun run build && cd ../ && neu build"
+  }
+}
