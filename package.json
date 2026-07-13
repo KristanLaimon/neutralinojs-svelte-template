@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "build:nohmr": "cd ./frontend && bun run build && cd ../ && neu build"
+    "build": "cd ./frontend && bun run build && cd ../ && neu run -- --window-enable-inspector",
+    "dev": "neu run -- --window-enable-inspector"
   }
 }

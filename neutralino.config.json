@@ -1,4 +1,5 @@
 {
+  "$schema": "neutralino.config.schema.json",
   "applicationId": "js.neutralino.zero",
   "version": "1.0.0",
   "defaultMode": "window",
@@ -7,7 +8,8 @@
   "enableServer": true,
   "enableNativeAPI": true,
   "nativeAllowList": [
-    "app.*"
+    "app.*",
+    "filesystem.readDirectory"
   ],
   "modes": {
     "window": {
@@ -16,7 +18,7 @@
       "height": 500,
       "minWidth": 400,
       "minHeight": 200,
-      "icon": "/frontend/public/icons.svg"
+      "icon": "/frontend/public/favicon.svg"
     }
   },
   "cli": {
@@ -24,10 +26,15 @@
     "resourcesPath": "/frontend/dist",
     "extensionsPath": "/extensions/",
     "binaryVersion": "6.8.0",
-    "clientVersion": "6.8.0"
-  },
-  "COMMENTED":{
-  "clientLibrary": "/www/neutralino.js"
+    "clientVersion": "6.8.0",
+    "frontendLibrary": {
+      "patchFile": "/frontend/index.html",
+      "devUrl": "http://localhost:5173",
+      "projectPath": "/frontend",
+      "initCommand": "bun install",
+      "devCommand": "bun dev",
+      "buildCommand": "bun run build"
+    }
   }
 }
 
