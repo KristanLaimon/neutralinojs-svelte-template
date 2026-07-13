@@ -10,7 +10,11 @@
   "nativeAllowList": [
     "app.*",
     "filesystem.readDirectory",
-    "window.show"
+    "window.show",
+    "os.setTray",
+    "os.open",
+    "os.showNotification",
+    "os.showMessageBox"
   ],
   "modes": {
     "window": {

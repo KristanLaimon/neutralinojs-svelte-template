@@ -9,6 +9,8 @@ lerna-debug.log*
 .tmp
 .tmp/*
 
+bun.lock
+
 # Neutralinojs and Svelte dependencies/builds
 node_modules
 /bin
