@@ -11,11 +11,12 @@ lerna-debug.log*
 
 bun.lock
 
-# Neutralinojs and Svelte dependencies/builds
+# Neutralinojs and frontend build directories
 node_modules
 /bin
 /dist
 /dist-ssr
+/resources
 neutralino.js
 .storage
 .lite_workspace.lua

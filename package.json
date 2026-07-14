@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "postinstall": "neu update",
     "dev": "neu run -- --window-enable-inspector",
     "vite": "vite",
     "build:frontend": "vite build",
-    "build": "neu build --production",
+    "build": "neu build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
   },
