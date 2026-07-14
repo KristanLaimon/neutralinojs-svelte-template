@@ -13,7 +13,7 @@ This is a template repository for building lightweight desktop applications usin
 
 ### 1. Install Dependencies
 
-You can use `bun` (recommended) or `npm`:
+You can use `bun` or `npm`:
 
 ```bash
 bun install
