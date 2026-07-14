@@ -2,12 +2,6 @@
 
 This is a template repository for building lightweight desktop applications using [Neutralinojs](https://neutralino.js.org/) and [Svelte](https://svelte.dev/) with [Vite](https://vite.dev/) and [TypeScript](https://www.typescriptlang.org/).
 
-The project hierarchy has been flattened so that all frontend files and Neutralinojs configurations live in the root directory.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Svelte Beta/Official Extension](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
-
 ## Prerequisites
 
 - Install the Neutralinojs CLI globally:
